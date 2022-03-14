@@ -1,6 +1,6 @@
 __author__ = "730476939"
 
-secret_word = "python"
+secret_word = "pythoan"
 guess = input(f"What is your {len(secret_word)}-letter guess? ")
 
 WHITE_BOX = "\U00002B1C"
@@ -24,7 +24,7 @@ while x < len(secret_word):
             elif i in secret_word:
                 space += YELLOW_BOX
             else:
-                space += WHITE_BOX
+                 space += WHITE_BOX
             count += 1
         print(space)
         print("Not quite. Play again soon!")
